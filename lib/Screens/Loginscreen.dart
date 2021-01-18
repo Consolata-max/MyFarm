@@ -111,7 +111,7 @@ class _LoginViewState extends State<Login> {
             ),
           ),
           onPressed: () {
-            //TODO Handle authentictaion
+            Navigator.of(context).pushNamed(AppRoutes.farmersList);
           },
         ));
 
